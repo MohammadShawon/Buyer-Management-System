@@ -1,0 +1,109 @@
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+    
+}
+
+#profile {
+    float: right;
+}
+
+.header_area {
+	width:100%;
+	text-align: center;
+	background-color:#FF2818;
+	
+}
+
+.header_area h1 {
+
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+.login_area {
+	width:100%;
+	text-align:center;
+	padding-top: 100px;
+	display:block;
+	
+}
+
+
+.login_form {
+	
+}
+.login_area input {
+    border: 1px solid #000;
+    padding: 5px;
+    
+    margin: 0 0 15px 0;
+}
+
+.login_area form {
+    font-size: 20px;
+}
+
+.login_area button:hover{
+    color: #fff;
+    background-color: #FF2818
+}
+
+.login_area h2{
+	
+	font-weight:lighter;
+	text-align:center;
+	color:#000;
+    padding-bottom: 15px;
+}
+#content {
+	padding-bottom:10px; /* Height of the footer element */
+}
+#footer{
+    width:100%;
+	background:#191919 none repeat scroll 0 0;
+	overflow:hidden;
+	display:block;
+    position: fixed;
+    bottom: 0;
+}
+.well {
+    padding: 20px;
+}
+
+.footer_area footer {
+	text-align:center;
+	color:#fff;
+}
+.footer_area {
+	
+
+}
+
+.sidenav {
+    padding-top: 20px;
+}
+
+/* Sidebar Navigation Style starts here */
+
+aside ul {
+    font-weight: bold;
+    list-style: none;
+    padding: 20px;
+}
+
+aside li {
+    padding: 5px;
+}
+aside ul li a {
+    text-decoration: none;
+}
+aside ul li a::hover {
+}
+#product_status{
+	padding-bottom:50px;
+}
+#order_list {
+	padding-bottom:50px;
+}
